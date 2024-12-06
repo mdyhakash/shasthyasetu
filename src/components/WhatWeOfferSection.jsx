@@ -16,9 +16,7 @@ const WhatWeOfferSection = () => {
             <h4 className="text-lg font-semibold text-gray-800">
               Generic Medicine
             </h4>
-            <p className="mt-2 text-sm text-gray-600">
-              
-            </p>
+            <p className="mt-2 text-sm text-gray-600"></p>
             <button className="mt-4 px-4 py-2 text-green-600 border border-green-600 rounded-md hover:bg-green-600 hover:text-white transition">
               Learn More
             </button>
@@ -39,7 +37,8 @@ const WhatWeOfferSection = () => {
               AI-Generated Health Tips Bot
             </h4>
             <p className="mt-2 text-sm"></p>
-            <Link href="/health-tips-bot">
+            {/* <Link href="/health-tips-bot"> */}
+            <Link href="/dataprocessor">
               <button className="mt-4 px-4 py-2 bg-white text-green-600 border border-white rounded-md hover:bg-green-700 hover:text-white transition">
                 Go To Bot
               </button>
@@ -49,9 +48,7 @@ const WhatWeOfferSection = () => {
             <h4 className="text-lg font-semibold text-gray-800">
               Pharmacy Store
             </h4>
-            <p className="mt-2 text-sm text-gray-600">
-              
-            </p>
+            <p className="mt-2 text-sm text-gray-600"></p>
             <button className="mt-4 px-4 py-2 text-green-600 border border-green-600 rounded-md hover:bg-green-600 hover:text-white transition">
               Learn More
             </button>
