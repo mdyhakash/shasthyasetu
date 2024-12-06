@@ -1,8 +1,9 @@
+/* eslint-disable-next-line react/no-unescaped-entities */
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import Doctor1 from "@/assets/doctor.jpg";
 import Doctor2 from "@/assets/doctor2.jpg";
+import Image from "next/image";
+import Link from "next/link";
 const DoctorDetailsPage = ({ params }) => {
   const { id } = params;
 

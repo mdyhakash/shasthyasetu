@@ -1,3 +1,4 @@
+/* eslint-disable-next-line react/no-unescaped-entities */
 import TeamPage from "@/components/TeamPage";
 
 const page = () => {

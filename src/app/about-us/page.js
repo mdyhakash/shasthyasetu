@@ -1,3 +1,4 @@
+/* eslint-disable-next-line react/no-unescaped-entities */
 import TeamPage from "@/components/TeamPage";
 import Link from "next/link";
 import { FaHandshake, FaRocket, FaUserAlt } from "react-icons/fa";
