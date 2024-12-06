@@ -73,7 +73,7 @@ const ServicesPage = () => {
                 Our specialists provide expert consultations in various medical
                 fields, ensuring you receive the best care for your health.
               </p>
-              <Link href="/appointment">
+              <Link href="/doctor-team">
                 <button className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
                 Learn More
                 </button>

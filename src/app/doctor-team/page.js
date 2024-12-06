@@ -268,9 +268,9 @@ const TeamPage = () => {
         {doctors.map((doctor) => (
           <div
             key={doctor.id}
-            className="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
+            className="bg-white border border-green-600 p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
           >
-            <div className="text-center">
+            <div className="text-center ">
               {/* Image for the doctor */}
               <div className="w-24 h-24 mx-auto mb-4">
                 <Image
@@ -301,6 +301,9 @@ const TeamPage = () => {
                     <path d="M10 15.27l4.18 2.73-1.64-5.28L18 7.27l-5.47-.47L10 2 7.47 6.8 2 7.27l4.46 5.45-1.64 5.28L10 15.27z" />
                   </svg>
                 ))}
+              </div>
+              <div className="mt-4 text-lg">
+                {doctor.available ? "Available 😊" : "Not Available 😞"}
               </div>
 
               {/* Link to Doctor Details Page */}

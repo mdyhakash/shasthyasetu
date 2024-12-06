@@ -287,7 +287,9 @@ const DoctorDetailsPage = async ({ params }) => {
             {doctor.name}
           </h2>
           <p className="text-xl text-gray-600 mt-2">{doctor.speciality}</p>
-          <div className="mt-4 text-4xl">{doctor.available ? "😊" : "😞"}</div>
+          <div className="mt-4 text-xl">
+            {doctor.available ? "Available 😊" : "Not Available 😞"}
+          </div>
 
           {/* Achievements */}
           <div className="mt-6">
@@ -316,7 +318,9 @@ const DoctorDetailsPage = async ({ params }) => {
         {/* Additional Info */}
         <div className="bg-white p-6 shadow-lg rounded-lg">
           {/* Bio */}
-          <h3 className="text-2xl font-semibold text-gray-800">Doctor&apos;s Bio</h3>
+          <h3 className="text-2xl font-semibold text-gray-800">
+            Doctor&apos;s Bio
+          </h3>
           <p className="text-lg text-gray-600 mt-4">
             Dr. {doctor.name} is a {doctor.speciality} with {doctor.experience}{" "}
             of experience. They completed their education from {doctor.from}.

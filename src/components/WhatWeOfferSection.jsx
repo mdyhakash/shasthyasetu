@@ -17,7 +17,7 @@ const WhatWeOfferSection = () => {
               Generic Medicine
             </h4>
             <p className="mt-2 text-sm text-gray-600">
-              Lorem ipsum dolor sit amet.
+              
             </p>
             <button className="mt-4 px-4 py-2 text-green-600 border border-green-600 rounded-md hover:bg-green-600 hover:text-white transition">
               Learn More
@@ -50,7 +50,7 @@ const WhatWeOfferSection = () => {
               Pharmacy Store
             </h4>
             <p className="mt-2 text-sm text-gray-600">
-              Lorem ipsum dolor sit amet.
+              
             </p>
             <button className="mt-4 px-4 py-2 text-green-600 border border-green-600 rounded-md hover:bg-green-600 hover:text-white transition">
               Learn More
