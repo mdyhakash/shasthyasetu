@@ -31,7 +31,7 @@ const ContactPage = () => {
       <section className="hero bg-green-600 text-white text-center py-20">
         <h1 className="text-4xl font-bold">Contact Us</h1>
         <p className="mt-4 text-xl">
-          We're here to help! Reach out to us and we’ll get back to you as soon
+          We&apos;re here to help! Reach out to us and we&apos;ll get back to you as soon
           as possible.
         </p>
       </section>

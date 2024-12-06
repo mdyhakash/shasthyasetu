@@ -64,7 +64,7 @@ const AboutPage = () => {
                 Customer First
               </h3>
               <p className="text-gray-600 mt-2">
-                Our customers' needs are at the heart of everything we do.
+                Our customers needs are at the heart of everything we do.
               </p>
             </div>
             <div className="bg-white p-6 shadow-lg rounded-lg">

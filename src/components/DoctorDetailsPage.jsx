@@ -80,7 +80,7 @@ const DoctorDetailsPage = ({ params }) => {
               <li>
                 - Published 5+ research papers in leading medical journals.
               </li>
-              <li>- Awarded "Best Doctor of the Year" in 2023.</li>
+              <li>- Awarded &quot; Doctor of the Year&quot; in 2023.</li>
               <li>- Guest lecturer at international medical conferences.</li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ const DoctorDetailsPage = ({ params }) => {
         {/* Additional Info */}
         <div className="bg-white p-6 shadow-lg rounded-lg">
           {/* Bio */}
-          <h3 className="text-2xl font-semibold text-gray-800">Doctor's Bio</h3>
+          <h3 className="text-2xl font-semibold text-gray-800">Doctor&apos;s Bio</h3>
           <p className="text-lg text-gray-600 mt-4">
             Dr. {doctor.name} is a {doctor.speciality} with {doctor.experience}{" "}
             of experience. They completed their education from {doctor.from}.

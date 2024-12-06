@@ -1,5 +1,5 @@
 // "use client";
-/* eslint-disable-next-line react/no-unescaped-entities */
+
 import Doctor1 from "@/assets/doctor.jpg";
 import Doctor2 from "@/assets/doctor2.jpg";
 import Image from "next/image";
@@ -298,7 +298,7 @@ const DoctorDetailsPage = async ({ params }) => {
               <li>
                 - Published 5+ research papers in leading medical journals.
               </li>
-              <li>- Awarded "Best Doctor of the Year" in 2023.</li>
+              <li>- Awarded &quot;Best Doctor of the Year&quot; in 2023.</li>
               <li>- Guest lecturer at international medical conferences.</li>
             </ul>
           </div>
