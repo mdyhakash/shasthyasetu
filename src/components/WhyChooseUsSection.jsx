@@ -15,7 +15,7 @@ const WhyChooseUsSection = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); 
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -53,11 +53,11 @@ const WhyChooseUsSection = () => {
               <FaHeadset />
             </div>
             <h4 className="text-lg font-semibold text-gray-800 mt-4">
-              Priority Customer Support
+              Priority Medical Support
             </h4>
             <p className="mt-2 text-sm text-gray-600">
-              We offer 24/7 support to address all your needs and ensure a
-              seamless experience.
+              Access 24/7 healthcare support to address all your medical
+              inquiries and ensure a smooth healthcare experience.
             </p>
           </div>
           {/* Feature 2 */}
@@ -66,11 +66,12 @@ const WhyChooseUsSection = () => {
               <FaRocket />
             </div>
             <h4 className="text-lg font-semibold text-gray-800 mt-4">
-              Innovation and Growth
+              Cutting-Edge Medical Technology
             </h4>
             <p className="mt-2 text-sm text-gray-600">
-              We embrace the latest technology to continuously improve and
-              innovate our services.
+              We utilize the latest medical advancements and technologies to
+              enhance treatments and provide the best care possible for our
+              patients.
             </p>
           </div>
           {/* Feature 3 */}
@@ -79,11 +80,12 @@ const WhyChooseUsSection = () => {
               <FaGlobe />
             </div>
             <h4 className="text-lg font-semibold text-gray-800 mt-4">
-              Global Community of Wellness
+              Global Health Network
             </h4>
             <p className="mt-2 text-sm text-gray-600">
-              Join a worldwide network dedicated to promoting health, wellness,
-              and medical care.
+              Join a global community committed to advancing wellness, sharing
+              medical knowledge, and providing quality healthcare solutions
+              worldwide.
             </p>
           </div>
         </div>
