@@ -1,5 +1,6 @@
-import { FaHandshake, FaRocket, FaUserAlt } from "react-icons/fa";
+import TeamPage from "@/components/TeamPage";
 import Link from "next/link";
+import { FaHandshake, FaRocket, FaUserAlt } from "react-icons/fa";
 const AboutPage = () => {
   return (
     <div className="about-page">
@@ -83,7 +84,7 @@ const AboutPage = () => {
 
       {/* Team Section */}
       <section className="py-10 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto text-center">
+        {/* <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-semibold text-gray-800">
             Meet Our Team
           </h2>
@@ -94,7 +95,12 @@ const AboutPage = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">
                   Dr. John Doe
                 </h3>
-                <p className="text-gray-600">Chief Medical Officer</p>
+                <p className="text-gray-600">Oncologists</p>
+                <Link href="/appointment">
+                  <button className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
+                    Take Appointment
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="bg-white p-6 shadow-lg rounded-lg">
@@ -112,11 +118,12 @@ const AboutPage = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">
                   Sara Williams
                 </h3>
-                <p className="text-gray-600">Lead Developer</p>
+                <p className="text-gray-600">Neurologists</p>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        
       </section>
 
       {/* Contact Section */}
@@ -127,9 +134,10 @@ const AboutPage = () => {
           out to us!
         </p>
         <Link href="/contact">
-        <button className="mt-6 px-6 py-3 bg-white text-green-600 rounded-md hover:bg-gray-200 transition">
-          Contact Us
-        </button></Link>
+          <button className="mt-6 px-6 py-3 bg-white text-green-600 rounded-md hover:bg-gray-200 transition">
+            Contact Us
+          </button>
+        </Link>
       </section>
     </div>
   );

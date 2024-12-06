@@ -73,13 +73,15 @@ const ServicesPage = () => {
                 Our specialists provide expert consultations in various medical
                 fields, ensuring you receive the best care for your health.
               </p>
-              <button className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
+              <Link href="/appointment">
+                <button className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
                 Learn More
-              </button>
+                </button>
+              </Link>
             </div>
 
             {/* Service 4 */}
-            <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
+            {/* <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
               <div className="text-4xl text-green-600 mb-4">
                 <FaHospital />
               </div>
@@ -93,7 +95,7 @@ const ServicesPage = () => {
               <button className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
                 Learn More
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
